@@ -8,11 +8,11 @@ export const vars = createGlobalTheme(":root", {
         mainFadedBright: "#0197ee",
         list: "rgb(245,250,254)",
         task: "rgb(255,255,255)",
-        taskHover: "#0ca4fc",
+        taskHover: "rgb(219, 236, 255)",
         brightText: "rgb(255,255,255)",
         darkText: "rgb(0,0,0)",
         secondaryDarkText: "rgb(22, 22, 22)",
-        secondaryDarkTextHover: "rgb(0, 0, 0)",
+        secondaryDarkTextHover: "rgb(226, 231, 235)",
         selectedTab: "#f4d238",
         updateButton: "rgb(64, 253, 77)",
         deleteButton: "rgb(253, 64, 64)"
