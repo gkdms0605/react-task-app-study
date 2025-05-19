@@ -1,4 +1,4 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 import { GrSubtract } from "react-icons/gr";
 import Task from "../Task/Task";
 import ActionButton from "../ActionButton/ActionButton";
@@ -34,7 +34,6 @@ const List: FC<TListProps> = ({ list, boardId }) => {
   const handelTaskChange = (
     boardId: string,
     listId: string,
-    taskId: string,
     task: ITask
   ) => {
     dispatch(setModalData({ boardId, listId, task }));
@@ -58,7 +57,7 @@ const List: FC<TListProps> = ({ list, boardId }) => {
             <div
               key={task.taskId}
               onClick={() =>
-                handelTaskChange(boardId, list.listId, task.taskId, task)
+                handelTaskChange(boardId, list.listId, task)
               }
             >
               <Task

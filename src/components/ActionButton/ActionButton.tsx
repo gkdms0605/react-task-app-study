@@ -1,7 +1,6 @@
-import React, { useState, type FC } from 'react'
+import { useState, type FC } from 'react'
 import DropDownForm from './DropDownForm/DropDownForm';
 import { IoIosAdd } from 'react-icons/io';
-import { board } from '../../App.css';
 import { listButton, taskButton } from './ActionButton.css';
 
 type TActionButtonProps = {
